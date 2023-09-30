@@ -1,0 +1,56 @@
+/* Form.css */
+.form-container {
+    width: 500px;
+    margin: 0;
+    padding: 28px 44px 28px 28px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-checkbox {
+    margin-right: 5px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.reset-button {
+    background-color: #ccc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.submit-button:hover, .reset-button:hover {
+    background-color: #0056b3;
+}
